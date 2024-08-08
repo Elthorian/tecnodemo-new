@@ -1,0 +1,31 @@
+//palette
+@red: #DC4444;
+@dark-red:#b83d3d;
+@white: white;
+@gray:#5b5a5d;
+@black: #202224;
+
+.partners{
+    min-height: calc(100vh - (30px + 246px + 410px + 30px));
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 5%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            height: 75px;
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            mix-blend-mode: multiply;
+        }
+    }
+    
+}

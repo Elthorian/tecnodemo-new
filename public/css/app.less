@@ -1,0 +1,128 @@
+#tecnodemo-body{
+    //normal nav class
+    .rd-navbar--is-stuck{
+        //transition: width 2s;
+        .logo{
+            top:0px;
+            left: 40px;
+            max-width: calc(1024px * 0.25);
+            max-height: calc(392px * 0.25);
+            -webkit-transition: all 0.35s linear;
+            -moz-transition: all 0.35s linear;
+            -o-transition: all 0.35s linear;
+            transition: all 0.35s linear;
+        }
+    }
+    .logo{
+        max-width: calc(1024px * 0.31);
+        max-height: calc(392px * 0.31);
+        position: absolute;
+        top:17.5px;
+        left: 50px;
+        z-index: 1001;
+        -webkit-transition: all 0.35s linear;
+        -moz-transition: all 0.35s linear;
+        -o-transition: all 0.35s linear;
+        transition: all 0.35s linear;
+    }
+    .group-middle{
+        flex-wrap: nowrap;    
+    }
+    .rd-navbar-classic.rd-navbar-static .rd-navbar-nav-wrap {
+        align-items: baseline;
+    }
+    .tecnodemo-menu {
+        margin-top: 0.75rem;
+        margin-bottom: 0.75rem;
+    }
+    .tecnodemo-proyectos-margin, .tecnodemo-sobre-nosotros-margin, .tecnodemo-novedades-margin, .tecnodemo-contacto-margin{
+        margin-top: 50px;
+    }
+    #services{
+        padding-bottom: 100px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    .swiper-slide-caption{
+        background-color: rgba(0,0,0,0.35);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        color: white;
+        h1, h2, h3, h4, h5, h6{
+            color: white;
+        }
+    }
+    .isotope-filters{
+        display: flex;
+        justify-content: center;
+        .isotope-filters-list{
+            width: 80%;
+        }
+    }
+    .team-component-grid{
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        .team-component{
+            width: calc(420px * 0.85);
+            height: calc(420px * 0.85);
+            padding: 10px;
+        }
+    }
+    .swiper-slider-classic * + p{
+        font-size: 1.45em;
+    }
+    #isotope-3{
+        row-gap: 20px;
+    }
+    h1, h2, h3, h4, h5, h6, [class*='heading-'] {
+        text-transform: none;
+    }
+    .counter-amy-number{
+        letter-spacing: 0em;
+    }
+    * + .counter-amy-title{
+        margin-top: 10px;
+    }
+    .tecnodemo-contacto{
+        align-items: baseline;
+    }
+    .tecnodemo-p-contacto{
+        margin-bottom: 0rem;
+    }
+    .tecnodemo-footer{
+        p{
+            margin-bottom: 0em;
+        }
+    }
+    a.box-contacts-icon{
+        &:link, &:visited, &:hover, &:active{
+            color: #DC4444;
+        }
+    }
+    .bg-gray-15{
+        background-color: #1b1b1b;
+    }
+    .red{
+        color: #DC4444;
+    }
+    .post-modern-time .post-modern-time-month::after {
+        margin-left: 0px;
+    }
+    time{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+    }
+    .post-modern-time{
+        padding: 5px 12.5px 0 1px;
+        &::before{
+            height: 4.5px;
+            transform-origin: 50% 105%;
+        }
+    }
+}

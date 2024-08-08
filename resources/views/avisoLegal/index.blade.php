@@ -1,0 +1,45 @@
+@extends('layouts.master')
+@section('title')
+    <title>@lang('legal.title')</title>
+@endsection
+@section('css')
+    <link rel="stylesheet" href="{{ asset('css/avisoLegal/avisoLegal.css') }}">
+@endsection
+@section('content')
+    <div class="legal-advice">
+        <div class="main-info">
+            <div class="title">1. Información general</div>
+            <div class="paragraph">Este website (el «Sitio») es administrado por TECNODEMO IBÉRICA, S.L (en adelante TECNODEMOIBERICA.COM). Los usuarios de este Sitio pueden ponerse en contacto con TECNODEMOIBERICA.COM a través de las siguientes vías:</div>
+            <div class="paragraph">Correo electrónico: info@tecnodemoiberica.com<br>Dirección: C/ França, 34 (Pol. Ind. Les Comes) 08700 Igualada (Barcelona)<br>Teléfono: 931434915</div>
+            <div class="title">2. Propiedad Intelectual e Industrial</div>
+            <div class="paragraph">Todos los contenidos presentes en el Sitio, entendiendo por estos a título enunciativo y no limitativo, los textos, imágenes, fotografías, sonidos, ficheros, logotipos, códigos fuente, combinaciones de colores, look & feel o cualquier otro elemento, así como su estructura y diseño, la selección y forma de presentación de los materiales incluidos en la misma y los programas de ordenador necesarios para su funcionamiento, acceso y utilización se encuentran sujetos a los derechos de propiedad industrial e intelectual pertenecientes a TECNODEMOIBERICA.COM o a terceros, que el usuario del Sitio debe respetar.</div>
+            <div class="paragraph">El usuario podrá visualizar los elementos del Sitio e incluso imprimirlos, copiarlos y almacenarlos en el disco duro de su ordenador o en cualquier otro soporte físico siempre y cuando sea, única y exclusivamente, para su uso personal y privado, comprometiéndose a no utilizarlos con fines comerciales ni a su explotación, distribución, reproducción, puesta a disposición, comunicación pública, utilización de técnica de ingeniería inversa, o a modificarlos, alterarlos o descompilarlos y, en general, cualquier otra forma de explotación por cualquier procedimiento y en cualquier soporte, sin la correspondiente autorización previa y por escrito de TECNODEMOIBERICA.COM.</div>
+            <div class="paragraph">Todas las marcas, nombres comerciales o signos distintivos de cualquier clase que aparecen en el Sitio son propiedad de TECNODEMOIBERICA.COM o de terceros, sin que pueda entenderse que el uso o acceso al Sitio atribuya al usuario derecho alguno sobre las citadas marcas, nombres comerciales y/o signos distintivos ni sobre ninguno de los contenidos que figuran en el mismo.</div>
+            <div class="title">3. Limitación de responsabilidad</div>
+            <div class="paragraph">La utilización de este Sitio se realiza por cuenta y riesgo del usuario. TECNODEMOIBERICA.COM no se responsabiliza del mal uso que el usuario pueda hacer de dicho Sitio. Asimismo, TECNODEMOIBERICA.COM no se responsabiliza de los errores u omisiones de los que pudiera adolecer el Sitio ni tampoco será ni podrá considerarse responsable por cualesquiera daños derivados de la utilización del mismo ni por cualquier actuación realizada en base a la información que en él se contiene.</div>
+            <div class="paragraph">TECNODEMOIBERICA.COM procurará que los contenidos de este Sitio sean precisos y estén actualizados, pero no tendrá ninguna responsabilidad en caso de reclamaciones o pérdidas surgidas por terceros en relación con los contenidos del Sitio.</div>
+            <div class="paragraph">TECNODEMOIBERICA.COM no garantiza la ausencia de virus u otros elementos lesivos que pudieran causar daños o alteraciones técnicas en los sistemas informáticos, documentos electrónicos o ficheros del usuario. En consecuencia, TECNODEMOIBERICA.COM no responde por los daños y perjuicios directos o indirectos que tales elementos pudieran ocasionar al usuario o a terceros.</div>
+            <div class="paragraph">Los usuarios que se propongan establecer un enlace (link) entre una página web y este Sitio deberán cumplir con las siguientes condiciones:</div>
+            <div class="paragraph">El enlace debe ser absoluto y completo, es decir, debe llevar al usuario a la dirección URL del Sitio www.tecnodemoiberica.com y debe abarcar completamente toda la extensión de la página principal del Sitio.</div>
+            <div class="paragraph">La página web en la que se establezca el enlace no podrá crear un marco (frame) sobre las páginas del Sitio.</div>
+            <div class="paragraph">La página web en la que se establezca el enlace no podrá dar ningún tipo de indicación engañosa, errónea o desleal acerca del Sitio.</div>
+            <div class="paragraph">La página web en la que se establezca el enlace no podrá contener materiales ilícitos, contrarios a la moral, las buenas costumbres y al orden público.</div>
+            <div class="paragraph">En cualquier caso, la página web en la que se establezca el enlace, deberá solicitar previamente la autorización expresa y por escrito de TECNODEMOIBERICA.COM.</div>
+            <div class="title">4. Condiciones de uso</div>
+            <div class="paragraph">El usuario del Sitio, mediante su acceso y navegación por el mismo, se obliga a utilizarlo conforme a la Ley y a las condiciones establecidas en el presente Aviso Legal, la moral y las buenas costumbres generalmente aceptadas y el orden público. El usuario responderá frente a TECNODEMOIBERICA.COM y/o frente a terceros, de cualesquiera daños y perjuicios que pudieran causarse como consecuencia del incumplimiento de dicha obligación. El acceso y navegación por este Sitio implica aceptar y conocer las advertencias legales que aquí se recogen. El mero acceso no implica el establecimiento de ningún tipo de relación comercial o contractual entre TECNODEMOIBERICA.COM y el usuario.</div>
+            <div class="paragraph">TECNODEMOIBERICA.COM podrá denegar o retirar el acceso a este Sitio sin necesidad de preaviso a cualquier usuario que realice conductas ilícitas o incumpla el presente Aviso Legal.</div>
+            <div class="paragraph">El usuario de este Sitio deberá abstenerse, en todo caso, de suprimir, alterar, eludir o manipular cualquier dispositivo de protección o sistema de seguridad que pueda estar instalado en el mismo.</div>
+            <div class="title">5. Enlaces</div>
+            <div class="paragraph">Este Sitio dispone de enlaces o hipervínculos hacía otros sitios de Internet. TECNODEMOIBERICA.COM no ejercerá ningún tipo de control sobre dichos sitios y contenidos. En ningún caso TECNODEMOIBERICA.COM asumirá responsabilidad alguna directa o indirecta por los contenidos de algún enlace perteneciente a un sitio web ajeno, ni garantizará la disponibilidad técnica, calidad, fiabilidad, exactitud, amplitud, veracidad, validez y legalidad de cualquier material o información contenida en ninguno de dichos hipervínculos u otros sitios de Internet. Igualmente la inclusión de estas conexiones externas no implicará ningún tipo de asociación, fusión o participación con las entidades conectadas. TECNODEMOIBERICA.COM aconseja la lectura de los avisos legales específicos de cada sitio web al que el usuario acceda.</div>
+            <div class="title">6. Modificaciones</div>
+            <div class="paragraph">TECNODEMOIBERICA.COM se reserva el derecho a cambiar sin previo aviso las especificaciones de sus productos o servicios en cualquier momento así como a efectuar las modificaciones que considere oportunas en su Sitio, pudiendo cambiar, suprimir o añadir tanto los contenidos y servicios que se presten a través de la misma como la forma en la que éstos aparezcan presentados o localizados en el Sitio.</div>
+            <div class="paragraph">Así mismo, el presente Aviso Legal podrá sufrir modificaciones de cualquier tipo cuando TECNODEMOIBERICA.COM lo considere necesario o con la finalidad de adecuarse a los cambios normativos y/o los avances tecnológicos que puedan producirse en el futuro.</div>
+            <div class="title">7. Contenido generado por el usuario</div>
+            <div class="paragraph">En cuanto a las opiniones, comentarios, material gráfico, fotografías, videos, información que el usuario del Sitio envíe o transmita al Sitio, lea también Condiciones de uso de los foros de TECNODEMOIBERICA.COM en las redes sociales.</div>
+            <div class="title">8. Generalidades</div>
+            <div class="paragraph">TECNODEMOIBERICA.COM perseguirá el incumplimiento de las cláusulas de este Aviso legal así como cualquier utilización indebida del Sitio ejerciendo las acciones civiles y penales que les pudieran corresponder.</div>
+            <div class="title">9. Derecho aplicable y Jurisdicción</div>
+            <div class="paragraph">Para la resolución de cualquier controversia en relación con el Sitio deberá someterse a la jurisdicción de los Juzgados y Tribunales de la ciudad de Igualada, en la provincia de Barcelona (España), y serán aplicables exclusivamente las leyes españolas.</div>
+        </div>
+    </div>
+@endsection
